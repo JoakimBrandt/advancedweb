@@ -8,7 +8,6 @@ var headerList = []
 
 		function setupTableOfContents() {
 
-			let header2Tags = document.getElementsByTagName("h2")
 			const newList = document.createElement("ul")
 			const headers = document.querySelectorAll("h2")
 
